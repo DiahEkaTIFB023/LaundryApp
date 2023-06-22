@@ -11,7 +11,7 @@ Halaman kedua menampilkan form tambah pesanan laundry
 
 Halaman ketiga menampilkan form tambah pesanan laundry ketika diisi
 
-<img src="https://i.ibb.co/jV7yDm1/Whats-App-Image-2023-06-21-at-15-22-48.jpg" alt="Whats-App-Image-2023-06-21-at-15-22-48" border="0" /> width="300" height="600"/>
+<img src="https://i.ibb.co/jV7yDm1/Whats-App-Image-2023-06-21-at-15-22-48.jpg" alt="Whats-App-Image-2023-06-21-at-15-22-48" border="0" width="300" height="600"/>
 
 Halaman keempat menampilkan halaman utaman jika sudah ditekan simpan
 
