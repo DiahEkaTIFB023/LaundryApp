@@ -7,11 +7,11 @@ import kotlinx.parcelize.Parcelize
 
 @Entity(tableName = "laundry_table")
 @Parcelize
-data class laundrymodel (
+data class LaundryModell (
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
     val name: String,
     val address: String,
     val latitude: Double?,
     val longitude: Double?
-    ) : Parcelable
+) : Parcelable

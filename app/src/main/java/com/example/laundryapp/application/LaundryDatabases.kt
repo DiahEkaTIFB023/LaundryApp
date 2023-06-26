@@ -5,15 +5,15 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.laundryapp.dao.daolaundry
-import com.example.laundryapp.model.laundrymodel
+import com.example.laundryapp.dao.DaoLaundry
+import com.example.laundryapp.model.LaundryModell
 
-@Database(entities = [laundrymodel::class], version = 2, exportSchema = false)
-abstract class laundrydatabase: RoomDatabase() {
-    abstract fun DaoLaundry(): daolaundry
+@Database(entities = [LaundryModell::class], version = 2, exportSchema = false)
+abstract class LaundryDatabases: RoomDatabase() {
+    abstract fun DaoLaundry(): DaoLaundry
 
     companion object {
-        private var INSTANCE: laundrydatabase? = null
+        private var INSTANCE: LaundryDatabases? = null
 
 //        private val migration1To2: Migration = object: Migration(1, 2) {
 //            override fun migrate(database: SupportSQLiteDatabase) {
@@ -24,11 +24,11 @@ abstract class laundrydatabase: RoomDatabase() {
 
         fun getDatabase(
             context: Context
-        ): laundrydatabase {
+        ): LaundryDatabases {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
-                    laundrydatabase::class.java,
+                    LaundryDatabases::class.java,
                     "laundry_database"
                 )
 //                    .addMigrations(migration1To2)
