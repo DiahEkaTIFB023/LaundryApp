@@ -51,7 +51,7 @@ Tampilan jika form telah diisi semua
 
 <img src="https://i.ibb.co/NtBVbtG/8.jpg" alt="8" border="0" width="300" height="600"/>
 
-Tampilan halaman utama setelah ada data yang telah ditambahkan
+Tampilan setelah data disimpan
 
 <img src="https://i.ibb.co/vz6K3DB/9.jpg" alt="9" border="0" width="300" height="600"/>
 
