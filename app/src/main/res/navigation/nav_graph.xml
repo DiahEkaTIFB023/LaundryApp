@@ -17,12 +17,16 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.laundryapp.SecondFragment"
+        android:name="com.example.laundryapp.ui.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <argument
+            android:name="laundry"
+            app:argType="com.example.laundryapp.model.LaundryModell"
+            app:nullable="true"/>
     </fragment>
 </navigation>

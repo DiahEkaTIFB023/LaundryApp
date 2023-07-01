@@ -1,4 +1,4 @@
-package com.example.laundryapp.ui
+package com.example.laundryapp
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar

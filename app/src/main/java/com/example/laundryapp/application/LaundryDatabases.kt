@@ -29,7 +29,7 @@ abstract class LaundryDatabases: RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     LaundryDatabases::class.java,
-                    "laundry_database"
+                    "laundry_database_1"
                 )
 //                    .addMigrations(migration1To2)
                     .allowMainThreadQueries()
