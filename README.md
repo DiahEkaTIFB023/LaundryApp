@@ -45,20 +45,20 @@ Tampilan jika form telah diisi semua
 
 Tampilan halaman utama setelah ada data yang telah ditambahkan
 
-<img src="https://i.ibb.co/vz6K3DB/9.jpg" alt="9" border="0" />
+<img src="https://i.ibb.co/vz6K3DB/9.jpg" alt="9" border="0" width="300" height="600"/>
 
 Tampilan data yang sudah diubah
 
-<img src="https://i.ibb.co/SwnRgCV/10.jpg" alt="10" border="0" />
+<img src="https://i.ibb.co/SwnRgCV/10.jpg" alt="10" border="0" width="300" height="600"/>
 
 Tampilan data sesudah diubah
 
-<img src="https://i.ibb.co/H470CFb/11.jpg" alt="11" border="0" />
+<img src="https://i.ibb.co/H470CFb/11.jpg" alt="11" border="0" width="300" height="600"/>
 
 Tampilan data yang akan dihapus
 
-<img src="https://i.ibb.co/q7ms2gw/12.jpg" alt="12" border="0" />
+<img src="https://i.ibb.co/q7ms2gw/12.jpg" alt="12" border="0" width="300" height="600"/>
 
 Tampilan sesudah data dihapus
 
-<img src="https://i.ibb.co/GtkWdkg/13.jpg" alt="13" border="0" />
+<img src="https://i.ibb.co/GtkWdkg/13.jpg" alt="13" border="0" width="300" height="600"/>
