@@ -19,6 +19,8 @@ Halaman keempat menampilkan halaman utaman jika sudah ditekan simpan
 
 
 
+
+
 PART 2
 
 Halaman utama sebelum ada data 
@@ -33,15 +35,15 @@ Tampilan jika halaman form tambah pesanan laundry tidak diisi
 
 <img src="https://i.ibb.co/vHf14Yv/3.jpg" alt="3" border="0" width="300" height="600"/>
 
-Tampilan jika form alamat tidak diisi
+Tampilan jika form paket tidak diisi
 
 <img src="https://i.ibb.co/nnNV1nM/5.jpg" alt="5" border="0" width="300" height="600" />
 
-Tampilan jika form paket tidak diisi
+Tampilan jika form berat tidak diisi
 
 <img src="https://i.ibb.co/FmznxBV/6.jpg" alt="6" border="0" width="300" height="600"/>
 
-Tampilan jika form berat tidak diisi
+Tampilan jika form harga tidak diisi
 
 <img src="https://i.ibb.co/NSmpP4M/7.jpg" alt="7" border="0" width="300" height="600"/>
 
