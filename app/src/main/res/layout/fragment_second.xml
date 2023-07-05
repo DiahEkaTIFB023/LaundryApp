@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text=" Nama Pemesan"
+            android:text=" Nama Laundry"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,13 +37,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Alamat"
+            android:text="Nomor Laundry"
             app:layout_constraintEnd_toEndOf="@+id/nameEditText"
             app:layout_constraintStart_toStartOf="@+id/nameEditText"
             app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
 
         <EditText
-            android:id="@+id/addressEditText"
+            android:id="@+id/numberEditText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -57,12 +57,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Paket Laundry"
-            app:layout_constraintStart_toStartOf="@+id/addressEditText"
-            app:layout_constraintTop_toBottomOf="@+id/addressEditText" />
+            android:text="Email Laundry"
+            app:layout_constraintStart_toStartOf="@+id/numberEditText"
+            app:layout_constraintTop_toBottomOf="@+id/numberEditText" />
 
         <EditText
-            android:id="@+id/paketEditText"
+            android:id="@+id/emailEditText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -78,12 +78,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Berat (Kg)"
+            android:text="Cabang Laundry"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/paketEditText" />
+            app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
 
         <EditText
-            android:id="@+id/weightEditText"
+            android:id="@+id/branchEditTextt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -99,12 +99,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Harga"
+            android:text="Alamat Laundry"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/weightEditText" />
+            app:layout_constraintTop_toBottomOf="@+id/branchEditTextt" />
 
         <EditText
-            android:id="@+id/priceEditText"
+            android:id="@+id/addressEditText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -114,14 +114,24 @@
             app:layout_constraintStart_toStartOf="@+id/textView7"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="0dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/addressEditText"
+            app:layout_constraintStart_toStartOf="@+id/addressEditText"
+            app:layout_constraintTop_toBottomOf="@+id/addressEditText" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/addressEditText"
-            app:layout_constraintTop_toBottomOf="@+id/priceEditText">
+            app:layout_constraintStart_toStartOf="@+id/numberEditText"
+            app:layout_constraintTop_toBottomOf="@+id/map">
 
             <Button
                 android:id="@+id/deleteButtone"
@@ -140,7 +150,7 @@
                 android:layout_marginStart="4dp"
                 android:text="@string/save"/>
         </LinearLayout>
-        
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -27,17 +27,17 @@ class LaundryListAdapter(
 
     class LaundryViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         private val nameTextView: TextView = itemView.findViewById(R.id.nameTextView)
+        private val noTextView: TextView = itemView.findViewById(R.id.numberTextView)
+        private val emailTextView: TextView = itemView.findViewById(R.id.EmailTextView)
+        private val branchTextView: TextView = itemView.findViewById(R.id.branchEditText)
         private val addressTextView: TextView = itemView.findViewById(R.id.addressTextView)
-        private val paketTextView: TextView = itemView.findViewById(R.id.paketTextView)
-        private val weightTextView: TextView = itemView.findViewById(R.id.weightTextView)
-        private val priceTextView: TextView = itemView.findViewById(R.id.priceTextView)
 
         fun bind(LaundryModell: LaundryModell?){
             nameTextView.text = LaundryModell?.name
+            noTextView.text = LaundryModell?.no
+            emailTextView.text = LaundryModell?.email
+            branchTextView.text = LaundryModell?.branch
             addressTextView.text = LaundryModell?.address
-            paketTextView.text = LaundryModell?.paket
-            weightTextView.text = LaundryModell?.weight.toString()
-            priceTextView.text = LaundryModell?.price.toString()
 
         }
         companion object {
@@ -65,6 +65,6 @@ class LaundryListAdapter(
     }
 }
 
-private fun LaundryListAdapter.LaundryViewHolder.bind(laundryModell: LaundryModell?) {
+private fun bind(LaundryModell: LaundryModell?) {
     TODO("Not yet implemented")
 }

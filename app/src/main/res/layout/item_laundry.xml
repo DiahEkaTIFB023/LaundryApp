@@ -29,35 +29,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="Nama Pemesan : " />
+                android:text="Nama Laundry :" />
+
+            <TextView
+                android:id="@+id/numberTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="No Laundry :" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/noTextView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:text="Nomor Laundry : " />-->
+
+            <TextView
+                android:id="@+id/EmailTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Email Laundry : " />
+
+            <TextView
+                android:id="@+id/branchEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Cabang Laundry : " />
 
             <TextView
                 android:id="@+id/addressTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:text="Alamat" />
-
-            <TextView
-                android:id="@+id/paketTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:text="Paket Laundry" />
-
-            <TextView
-                android:id="@+id/weightTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:text="Berat (Kg) :" />
-
-            <TextView
-                android:id="@+id/priceTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:text="Harga :" />
+                android:text="Alamat Laundry :" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
