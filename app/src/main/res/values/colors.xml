@@ -7,4 +7,7 @@
     <color name="lime">#FCF5C7</color>
     <color name="blue">#A0CED9</color>
     <color name="green">#ADF7B6</color>
+    <color name="primaryColor">#50C2C9</color>
+    <color name="secondColor">#55BBAF</color>
+    <color name="pinkmuda">#FBE4FF</color>
 </resources>

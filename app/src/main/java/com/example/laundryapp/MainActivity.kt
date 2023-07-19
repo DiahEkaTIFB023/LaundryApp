@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         checkLocationPermission()
 
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

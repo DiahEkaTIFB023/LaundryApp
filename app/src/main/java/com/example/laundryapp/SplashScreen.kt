@@ -6,6 +6,7 @@ import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 
 class SplashScreen : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
@@ -13,9 +14,11 @@ class SplashScreen : AppCompatActivity() {
         supportActionBar?.hide()
         val handler = Handler()
         handler.postDelayed({
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
-        }, 7000)
+        }, 5000)
+
+        
 
     }
 }

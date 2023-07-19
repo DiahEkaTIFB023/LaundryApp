@@ -17,17 +17,28 @@
         android:theme="@style/Theme.LaundryApp"
         tools:targetApi="31">
         <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreen"
             android:exported="true"
             android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login2"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value=" AIzaSyBWMlLvi7mv5_5GXb7gkUuAjU5kAntWlGs" />
@@ -36,10 +47,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.LaundryApp">
-
-
-        </activity>
+            android:theme="@style/Theme.LaundryApp" />
     </application>
 
 </manifest>
