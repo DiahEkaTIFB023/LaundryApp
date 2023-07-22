@@ -70,3 +70,53 @@ Tampilan data yang akan dihapus
 Tampilan sesudah data dihapus
 
 <img src="https://i.ibb.co/GtkWdkg/13.jpg" alt="13" border="0" width="300" height="600"/>
+
+
+
+
+
+
+
+
+UAS
+Tampilan SharedScreen
+<img src="https://i.ibb.co/9GPQhP5/Whats-App-Image-2023-07-22-at-14-05-11.jpg" alt="Whats-App-Image-2023-07-22-at-14-05-11" border="0" />
+
+
+Tampilan halaman Daftar
+<img src="https://i.ibb.co/P9hzsX5/Whats-App-Image-2023-07-22-at-14-05-10.jpg" alt="Whats-App-Image-2023-07-22-at-14-05-10" border="0" />
+
+
+Tampilan halaman register setelah diisi
+<img src="https://imgtr.ee/images/2023/07/22/b4619acce4a520271cc45a8f3529db77.jpeg" alt="b4619acce4a520271cc45a8f3529db77.jpeg" border="0" />
+
+
+Tampilan halaman login setelah di isi
+<img src="https://imgtr.ee/images/2023/07/22/8a080d3d96f2cbad905f3d8b7625a7c9.jpeg" alt="8a080d3d96f2cbad905f3d8b7625a7c9.jpeg" border="0" />
+
+
+Tampilan Halaman Utama
+<img src="https://imgtr.ee/images/2023/07/22/a43b0be2dcc16c99aae659d72e3623f1.jpeg" alt="a43b0be2dcc16c99aae659d72e3623f1.jpeg" border="0" />
+
+
+Tampilan tambah laundry
+<img src="https://imgtr.ee/images/2023/07/22/d6578b083fc98c7aec5a533e31623a5f.jpeg" alt="d6578b083fc98c7aec5a533e31623a5f.jpeg" border="0" />
+
+
+Tampilan form tambah laundry
+<img src="https://imgtr.ee/images/2023/07/22/1061a9eb380a79f4a86bacf8677c4754.jpeg" alt="1061a9eb380a79f4a86bacf8677c4754.jpeg" border="0" />
+
+
+Tampilan button kamera jika di klik
+<img src="https://imgtr.ee/images/2023/07/22/e1e11b0384e626c02dfc177267695e8e.jpeg" alt="e1e11b0384e626c02dfc177267695e8e.jpeg" border="0" />
+
+
+Tampilan ketika form tambah sudah diisi
+<img src="https://imgtr.ee/images/2023/07/22/c5076baccfdab558d539649bc4321ac3.jpeg" alt="c5076baccfdab558d539649bc4321ac3.jpeg" border="0" />
+
+
+Tampilan ketika sudah disimpan
+<img src="https://imgtr.ee/images/2023/07/22/5ae3b900b16b3f65f6a89098c2506f1a.jpeg" alt="5ae3b900b16b3f65f6a89098c2506f1a.jpeg" border="0" />
+
+
+
